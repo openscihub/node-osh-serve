@@ -1,0 +1,28 @@
+{
+  "name": "osh-serve",
+  "version": "0.0.0",
+  "description": "openscihub.org: serve osh-pages and osh-paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carl A. Bauer",
+  "license": "ISC",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "lodash": "^2.4.1",
+    "morgan": "^1.2.3",
+    "osh-page": "0.0.0",
+    "osh-path": "0.0.1",
+    "osh-test-host": "0.0.0",
+    "superagent": "^0.18.2",
+    "supertest": "^0.13.0"
+  },
+  "dependencies": {
+    "dynapack": "^0.2.2",
+    "express": "^4.8.7",
+    "serve-static": "^1.5.3",
+    "temp": "^0.8.1",
+    "xtend": "^4.0.0"
+  }
+}
