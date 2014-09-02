@@ -51,6 +51,23 @@ middleware has been attached.  If an error occurs, the 'error' event will emit.
 The serve function accepts a single configuration object with the following
 properties.
 
+Sample config with default values:
+
+```js
+{
+  app: require('express')(),
+  dir: process.cwd(),
+  paths: [],
+  pages: [],
+  scripts: {
+    serve: true,
+    output: require('temp').stash().mkdirSync('__bundle'),
+    prefix: '/'
+  }
+};
+```
+
+
 #### app {Express}
 
 Optional. If provided, all Page/Path middleware will be mounted to it.
