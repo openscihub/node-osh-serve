@@ -61,7 +61,7 @@ Sample config with default values:
   pages: [],
   scripts: {
     serve: true,
-    output: require('temp').stash().mkdirSync('__bundle'),
+    output: require('temp').track().mkdirSync('__bundle'),
     prefix: '/'
   }
 };
